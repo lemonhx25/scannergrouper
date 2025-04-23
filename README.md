@@ -26,9 +26,23 @@ stat_cluster_new.ipynb
 
 ## Scannergrouper-f running step:
 
-### 1.Result Aggregation Module
+### 1.Scanner level identification Evaluation
 scannergrouper/scannergrouper-f/ensemble_learning.ipynb
 
 ### 2.Identification Result Analysis
 scannergrouper/scannergrouper-f/cluster/
 The rest running steps of files in 'cluster/' is the same as scannergrouper-i.
+
+
+
+# Reimplementation of Kallitsis’s framework
+
+**This code is reimplementation accroding to the following paper:**
+Michalis Kallitsis,Rupesh Prajapati,Vasant Honavar,Dinghao Wu,and John Yen. Detecting and Interpreting Changes in Scanning Behavior in Large Network Telescopes. IEEE TIFS, 17:3611–3625, 2022.
+
+## Evaluate scanner level identification
+python Optuna.py --dataset_name SelfDeploy24;
+
+
+python Optuna.py --dataset_name SelfDeploy25
+
